@@ -5,9 +5,10 @@ var floppercost = 100;
 var floppernumber = 0;
 var chikenmcost = 500;
 var chikenmnumber = 0;
+var clickpower = 5;
 
-function floppers(amount) {
-	floppas = floppas + amount; 
+function addtoscore() {
+	floppas = floppas + clickpower
 	document.getElementById("floppas").innerHTML = (floppas);
 }
 
