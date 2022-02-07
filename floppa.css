@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap&quot");
 
+.text {
+	font-size: 23px;
+	color: black;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+}
+
 .floppa:hover {
 	transform: scale(1.10);	
 	transition: all .1s ease-in-out;
